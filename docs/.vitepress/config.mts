@@ -22,7 +22,7 @@ import { transforms } from './transformer'
 
 // @unocss-include
 
-const baseUrl = process.env.GITHUB_ACTIONS ? '/edit' : '/'
+const baseUrl = process.env.GITHUB_ACTIONS ? '/fmhy' : '/'
 export default defineConfig({
   title: 'FMHY',
   description: meta.description,
