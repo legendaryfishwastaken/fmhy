@@ -24,7 +24,7 @@ import { transformsPlugin } from './transformer'
 
 const baseUrl = process.env.GITHUB_ACTIONS ? '/edit' : '/'
 export default defineConfig({
-  title: 'FMHY',
+  title: 'notFMHY',
   description: meta.description,
   titleTemplate: ':title • freemediaheckyeah',
   lang: 'en-US',
